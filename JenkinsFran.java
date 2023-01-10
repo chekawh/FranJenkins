@@ -1,4 +1,4 @@
-public class JenkinsFran {
+
     pipeline {
         agent { label 'master'}
         stages {
@@ -19,4 +19,3 @@ public class JenkinsFran {
             }
         }
     }
-}
